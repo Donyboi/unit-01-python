@@ -32,13 +32,15 @@ print()
 print()
 
 
-number =float(input("enter a number"))
+number =float(input("enter a number:"))
 if number > 0:
     print("the number is positve")
 elif number < 0:
     print("the number is negative")
 else:
     print("the number is zero")
+
+# made python figure out if the number is positve negative or zero
 
 print("------task2------")
 print()
@@ -55,21 +57,29 @@ print("------task3------")
 print()
 print()
 
-dony3=input("give ne a float:")
 
-dony3=float(dony3)
+dony3 = input("Give me a float: ")
+dony3 = float(dony3)
+print("Float input:", dony3, "| Type:", type(dony3))
 
-print(type(dony3))
-
-dony4=input("give me a integer:")
-
-dony4=int(dony4)
-print(type(dony4))
+dony4 = input("Give me an integer: ")
+dony4 = int(dony4)
+print("Integer input:", dony4, "| Type:", type(dony4))
 
 
-print("------task3------")
-print()
-print()
+
+
+addition = dony3 + dony4
+subtraction = dony3 - dony4
+multiplication = dony3 * dony4
+division = dony3 / dony4  
+
+
+print("Addition:", addition)
+print("Subtraction:", subtraction)
+print("Multiplication:", multiplication)
+print("Division:", division)
+
 """
 TASK 4:
 
@@ -80,15 +90,19 @@ print("------task4------")
 print()
 print()
 
-x={
-    "apple":7,
-    "mango":8
+# Creating the dictionary
+fruit_quantities = {
+    "apple": 7,
+    "mango": 8,
+    "banana": 5,
+    "orange": 10
 }
-print(x["apple"])
 
-print("------task3------")
-print()
-print()
+# Printing the quantity of one fruit
+print("Quantity of apples:", fruit_quantities["apple"])
+
+
+
 
 #i made a dictonary that prints apple.
 """
@@ -97,6 +111,11 @@ TASK 5:
 Create a string variable with that is a list of numbers and convert that string into a tuple.
 Then print out the both the original string and tuple.
 """
+print("------task5------")
+print()
+print()
+
+
 
 """
 TASK 6:
