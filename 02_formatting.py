@@ -27,10 +27,10 @@ print("-------task2----")
 print()
 print()
 
-if user_input.strip() =="":
+if user_input.strip() =="": # this checks if the user input is empty
     print("invalid")
 else:
-    print("valid")
+    print("valid") # this prints valid if the user input is not empty
 """
 TASK 3:
 
@@ -79,12 +79,12 @@ print("-------task5----")
 print()
 print()
 
-Number1 = float(input("Enter the numerator: "))
+Number1 = float(input("Enter the numerator: ")) 
 Number2 = float(input("Enter the denominator: "))
 
 # Check for division by zero
 if Number2 == 0:
-    print("Error: Division by zero is not allowed.")
+    print("Error: Division by zero is not allowed.") # Prints an error message if the denominator is zero
 else:
     quotient = Number1 / Number2
     rounded_number = round(quotient, 1) #round the number to the nearist tenth

@@ -10,7 +10,7 @@ print()
 
 if 12 >= 10: # This checks if 12 is greater than or equal to 10
     print(True)  # Since 12 is greater than 10, this condition is True
-else:
+else: # If the condition is not met, it will print False
     print(False)
 '''
 Exercise 2:
@@ -29,7 +29,7 @@ y_student =True
 age < 18
 if age <18 or y_student: # checks if there over or under 18
     price = 10
-else:
+else: # if they are not under 18 or a student the ticket price is 20
     price =20
 
 print("Ticket price: $",price) 

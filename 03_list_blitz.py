@@ -36,7 +36,7 @@ print()
 print()
 # Create a list with 3 elements and print it.
 l = ["mango",True,0.2]
-l.remove("mango") 
+l.remove("mango")  #removed mango from the list
 print(l)
 
 """
@@ -72,7 +72,7 @@ print()
 
 cars = []
 
-cars.append("old car")
+cars.append("old car") #added old car to the list
 
 print(cars)
 
@@ -132,7 +132,7 @@ print()
 
 list_a = ["bob","tom"] 
 
-list_b = ["james","todd"]
+list_b = ["james","todd"] 
 
 lists = list_a + list_b #the plus symbol adds elements of list_a individually into list_b
 
