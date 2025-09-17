@@ -7,7 +7,7 @@ Print both the original variable and the converted integer.
 print("------task1------")
 print()
 print()
-don_float=15.6
+don_float=15.6 #created a float variable
 
 
 
@@ -32,13 +32,13 @@ print()
 print()
 
 
-number =float(input("enter a number:"))
+number =float(input("enter a number:")) # take a number as input and convert it to float
 if number > 0:
-    print("the number is positve")
-elif number < 0:
+    print("the number is positve") 
+elif number < 0: # check if the number is negative
     print("the number is negative")
 else:
-    print("the number is zero")
+    print("the number is zero") 
 
 # made python figure out if the number is positve negative or zero
 
@@ -58,28 +58,28 @@ print()
 print()
 
 
-dony3 = input("Give me a float: ")
+dony3 = input("Give me a float: ") # take a float input from the user
 dony3 = float(dony3)
 print("Float input:", dony3, "| Type:", type(dony3))
 
-dony4 = input("Give me an integer: ")
+dony4 = input("Give me an integer: ") # take an integer input from the user
 dony4 = int(dony4)
-print("Integer input:", dony4, "| Type:", type(dony4))
+print("Integer input:", dony4, "| Type:", type(dony4)) #print the type of the input
 
 
 
 
-addition = dony3 + dony4
+addition = dony3 + dony4 
 subtraction = dony3 - dony4
 multiplication = dony3 * dony4
 division = dony3 / dony4  
 
 
-print("Addition:", addition)
-print("Subtraction:", subtraction)
-print("Multiplication:", multiplication)
-print("Division:", division)
-
+print("Addition:", addition) # print the results of addition
+print("Subtraction:", subtraction) # print the results of subtraction
+print("Multiplication:", multiplication) # print the results of multiplication
+print("Division:", division) # print the results of division
+ 
 """
 TASK 4:
 

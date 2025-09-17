@@ -21,9 +21,9 @@ print("-------task2----")
 print()
 print()
 
-li = [True,31]
-li.append("Eyes")
-print(li)
+li = [True,31] #created a list with 2 elements
+li.append("Eyes") #added eyes to the list
+print(li) #print the updated list
 
 """
 Task 3: Remove Element from a List
@@ -36,7 +36,7 @@ print()
 print()
 # Create a list with 3 elements and print it.
 l = ["mango",True,0.2]
-l.remove("mango")
+l.remove("mango") 
 print(l)
 
 """
