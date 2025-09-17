@@ -120,8 +120,5 @@ triangle_type(2, 2, 2)
 triangle_type(2, 2, 3)  
 triangle_type(1, 2, 3)
 
-
-
-
-
+## End of the code
 
