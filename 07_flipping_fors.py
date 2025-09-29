@@ -36,10 +36,12 @@ print()
 print("-------task3----")
 print()
 
-FREZA = list("YOU, M0NKEY")
+FREZA = "YOU, M0NKEY"
 
-for goku in FREZA:
-    print(goku)
+words = FREZA.split(" ")
+
+for goku in words:
+    print (len(goku))
 
 
 """
@@ -50,6 +52,9 @@ iterates through a dictionary and prints the result
 In a comment, answer the following, what do you notice about the output of your code?
 Is it what you expected?
 """
+print()
+print("-------task4-------------")
+print()
 
 my_dict = {
     "bob": 3,
@@ -57,4 +62,7 @@ my_dict = {
     "carly": 7,
     
 }
+
+for bob in my_dict:
+    print(bob)
 
