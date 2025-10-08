@@ -6,7 +6,7 @@ print("------task1-----")
 print()
 print()
 
-for x in range(1,11):# the range function generates a sequence of numbers from 1 to 10
+for x in range(1,11): 
     print(x)
 
 
