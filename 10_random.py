@@ -26,11 +26,12 @@ print()
 
 
 for _ in range(5):
-    roll = random.randint(0,1)
-    print(f"roll: {roll}")
+    roll = random.uniform(0,1)
+    print(f"roll: {roll:.2f}")
+    print()
 for _ in range(5):
-    roll = random.randint(10,20)
-    print(f"roll: {roll}")
+    roll = random.uniform(10,20)
+    print(f"roll: {roll:.2f}")
 
 """
 Task 3 (random module):
@@ -43,9 +44,8 @@ print()
 
 bobby_colors = ["red", "blue", "green", "yellow", "purple"]
 for _ in range(3):
-    bobby_colors = random.randint(1,5)
-    print(f"color {bobby_colors}")
-    
+    print(random.choice(bobby_colors))
+
 
 
 """
@@ -61,3 +61,7 @@ print()
 numbers = list(range(1, 11))
 random.shuffle(numbers)
 print("Shuffled numbers:", numbers)
+
+
+
+
