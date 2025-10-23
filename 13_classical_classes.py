@@ -67,7 +67,7 @@ print(dony3.name)
 
                  
       
-
+comment = "#R"
 """
 Task 3: Banking
 Create a class BankAccount with attributes balance and owner. 
