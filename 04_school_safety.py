@@ -2,9 +2,10 @@
 name = input("what is your name: ")
 
 
-if pass_1 == "yes":
+pass_1 = input("do you have a pass:")
 
-    pass_1 = input("do you have a pass:")
+
+if pass_1 == "yes":
 
     time_pass = int(input("what time was the pass issued:"))
 

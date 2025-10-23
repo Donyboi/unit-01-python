@@ -29,15 +29,40 @@ Then create two subclasses, Dog and Cat, each with their own speak method.
 Create objects using these subclasses and call the speak method.
 """
 print("----taks 2------")
+print()
+print()
 
 class Animal:
-    def speak(self):
-        pass  # Placeholder method
+    speak = ''
+    def __init__(self, name):
+     self.name = name
+     
 
-    class Dog(Animal):
-        def speak(self):
-            print("bark")
+class Dog:
+    speak = 'wolf'
+   
 
+    
+     
+
+dony2 = Animal("Dog:bark" )
+print(dony2.name)
+
+print()
+
+class Cat:
+    speak = 'moo'
+   
+
+    
+     
+
+dony3 = Animal("Cat:meow" )
+print(dony3.name)
+
+
+
+           
         
 
                  
@@ -51,3 +76,8 @@ Include methods for depositing and withdrawing money, which should modify the ba
 
 Test these methods with instances of the class.
 """
+
+print("----taks 3------")
+print()
+print()
+
