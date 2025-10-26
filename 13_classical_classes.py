@@ -32,26 +32,26 @@ print("----taks 2------")
 print()
 print()
 
-class Animal:
+class Animal: #creating class
     speak = ''
     def __init__(self, name):
      self.name = name
      
 
-class Dog:
+class Dog: #sub class
     speak = 'wolf'
    
 
     
      
 
-dony2 = Animal("Dog:bark" )
+dony2 = Animal("Dog:bark" ) 
 print(dony2.name)
 
 print()
 
-class Cat:
-    speak = 'moo'
+class Cat:#sub class
+    speak = 'meow'
    
 
     
@@ -81,3 +81,29 @@ print("----taks 3------")
 print()
 print()
 
+
+class BankAccount:
+    def __init__(self, owner , balance):
+        self.owner = owner
+        self.balance = balance
+
+# a function using self and amount for both depositing and withdrawing
+    def deposit(self, amount):
+        self.balance += amount
+        print("Deposited:", amount)
+
+    def withdraw(self, amount):
+        if amount <= self.balance:
+            self.balance -= amount
+            print("Withdrew:", amount)
+        
+        else:
+            print("Not enough balance.")
+
+#create an account
+account = BankAccount("Donyboi", 75)
+
+#testing
+account.deposit(65)
+account.withdraw(40)
+account.withdraw(205)
