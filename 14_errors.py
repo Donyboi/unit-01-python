@@ -90,5 +90,38 @@ them to include appropriate try/except blocks to handle exceptions gracefully.
 #     except FileNotFoundError:
          print("Error: File not found.")
 
+<<<<<<< HEAD
  # Example usage:
 process_file("example.txt")
+=======
+# Example usage:
+my_dict = {"a": 1, "b": 2}
+get_value(my_dict, "c")
+
+
+"""
+Example 5: Else/Finally
+Modify the following code to include an else block to execute code if no exceptions occur 
+and a finally block to ensure that a certain action is always performed, regardless of whether an exception is raised.
+"""
+print("----task 5----")
+print()
+print()
+
+def process_file(filename):
+    try:
+        with open(filename, 'r') as file:
+            contents = file.read()
+            print("File contents:", contents)
+    except FileNotFoundError:
+        print("Error: File not found.")
+    else:
+        print("file found.")
+    finally:
+        print("example.txt")
+
+
+
+# Example usage:
+        process_file("example.txt")
+>>>>>>> 88b5788 (work)
